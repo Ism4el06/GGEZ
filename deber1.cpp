@@ -9,7 +9,7 @@ int main() {
     cout << "Ingrese el precio por Kw: ";
     cin >> precioKw;
 
-    if (cantidadKw > 600) {
+    if (cantidadKw > 700) {
         double excesoKw = cantidadKw - 700;
         totalPagar = (700 * precioKw) + (excesoKw * precioKw * 1.05);
     } else {
